@@ -1,0 +1,31 @@
+{
+  "name": "css-master",
+  "version": "1.0.0",
+  "description": "css master with css4 and css grid, css flexbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhanPark/the-path-of-css-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhanPark/the-path-of-css-master/issues"
+  },
+  "homepage": "https://github.com/minhanPark/the-path-of-css-master#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "css-reset": "0.0.1",
+    "postcss-preset-env": "^6.2.0",
+    "reset-css": "^4.0.1"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}
